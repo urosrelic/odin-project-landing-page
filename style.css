@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Nav */
+header {
+    padding: 10px 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation > h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.navigation > nav > a {
+    text-decoration: none;
+    color: #F9FAF8;
+    margin-left: 30px;
+}
+
+.header-info {
+    margin: 80px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 600px;
+}
+
+.header-text > h1 {
+    font-weight: 800;
+    font-size: 48px;
+    max-width: 320px;
+}
+
+.header-text > * {
+    color: white;
+    margin: 5px 0;
+}
+
+.header-text > button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header-img > img {
+    border: 1px solid black;
+    width: 600px;
+    height: 300px;
+}
+
+/* Body */
+
+.information {
+    margin: 50px 0;
+    padding: 30px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.info-header > * {
+    font-weight: 800;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-container {
+    text-align: center;
+    margin: 0 50px;
+}
+
+.box-container > img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.quote {
+    margin: 50px 0;
+    padding: 30px 300px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
+}
+
+#quote-author {
+    text-align: right;
+    font-weight: 800;
+}
+
+.sign-up {
+    margin: 50px 0;
+    padding: 30px 300px;
+
+}
+
+.signup-info {
+    background-color: #3882F6;
+    padding: 50px 150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-info-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+#upper-text {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#lower-text {
+    color: #d2cfcf;
+}
+
+.signup-info-button > button {
+    width: 120px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+/* Footer */
+
+footer {
+    margin: 50px 0 0 0;
+    padding: 30px 300px;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: #F9FAF8;
+}
